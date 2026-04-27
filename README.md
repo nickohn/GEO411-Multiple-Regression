@@ -30,7 +30,7 @@ Slope interpretations for the new model are as follows:
 - car library for VIF calculations
 
 **REFLECTIONS**
-- Juggling each independent variable while not violating assumptions is incredibly challenging but necessary for proper model accuracy
+- During the process of creating the new model, I went through and utilized log-linear, linear-log, log-log, and the similar variations of square rooting the different parts of the model
 - There is no such thing as a perfect model
 - Different models calculate based on different things, so pay attention to how the data that is available is relevant to the model itself
 - Not everything that you would think would cause multicollinearity will cause it (I assumed bathrooms and bedrooms would have high multicollinearity with area of living space, but that was not the case numerically)
